@@ -23,12 +23,12 @@ wheels/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# YOLOv8 specific
-*.pt
-runs/
+# Video files
 *.mp4
 *.mkv
-detection_output.mp4
+
+# Model files
+*.pt
 
 # IDE specific
 .idea/
@@ -39,7 +39,3 @@ detection_output.mp4
 # OS specific
 .DS_Store
 Thumbs.db
-
-# Project specific
-output.txt
-alert.mp3
