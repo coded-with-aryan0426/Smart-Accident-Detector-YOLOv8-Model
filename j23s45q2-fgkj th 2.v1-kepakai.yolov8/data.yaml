@@ -1,0 +1,13 @@
+train: c:/Users/YASH/Desktop/himanshu1/j23s45q2-fgkj th 2.v1-kepakai.yolov8/train/images
+val: c:/Users/YASH/Desktop/himanshu1/j23s45q2-fgkj th 2.v1-kepakai.yolov8/valid/images
+test: c:/Users/YASH/Desktop/himanshu1/j23s45q2-fgkj th 2.v1-kepakai.yolov8/test/images
+
+nc: 2
+names: ['accident', 'non-accident']
+
+roboflow:
+  workspace: proposal-c8td9
+  project: j23s45q2-fgkj-th-2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/proposal-c8td9/j23s45q2-fgkj-th-2/dataset/1

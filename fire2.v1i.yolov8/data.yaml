@@ -1,0 +1,13 @@
+train: c:/Users/YASH/Desktop/himanshu1/fire2.v1i.yolov8/train/images
+val: c:/Users/YASH/Desktop/himanshu1/fire2.v1i.yolov8/valid/images
+test: c:/Users/YASH/Desktop/himanshu1/fire2.v1i.yolov8/test/images
+
+nc: 1
+names: ['fire']
+
+roboflow:
+  workspace: jinyangs-workspace
+  project: fire2-eth6o
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jinyangs-workspace/fire2-eth6o/dataset/1

@@ -1,0 +1,13 @@
+train: c:/Users/YASH/Desktop/himanshu1/acident validate.v2i.yolov8/train/images
+val: c:/Users/YASH/Desktop/himanshu1/acident validate.v2i.yolov8/valid/images
+test: c:/Users/YASH/Desktop/himanshu1/acident validate.v2i.yolov8/test/images
+
+nc: 2
+names: ['accident', 'non-accident']
+
+roboflow:
+  workspace: augmentation-test
+  project: acident-validate
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/augmentation-test/acident-validate/dataset/2
